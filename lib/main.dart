@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           CartScreen.routeName:(ctx)=>const CartScreen(),
           OrderScreen.routeName:(ctx)=>const OrderScreen(),
           UserProductsScreen.routeName:(ctx) =>const UserProductsScreen(),
-          EditProductScreen.routeName:(ctx) =>const EditProductScreen(),
+          EditProductScreen.routeName:(ctx) => EditProductScreen(),
         },
         debugShowCheckedModeBanner: false,
         title: ('Shop App'),
